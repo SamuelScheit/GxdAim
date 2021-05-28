@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta name="google-site-verification" content="YB7EoQwGbZwxGAhQb_MXDnbL9OrceDmPLNtVmIclvN8" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162056552-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "UA-162056552-1");
+		</script>
+
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<title>GxdAim - Graphic Designer</title>
+		<link rel="icon" href="img/GxdAim - elipse-blau.png" />
+		<link rel="stylesheet" href="css/fullpage.min.css" />
+		<link rel="stylesheet" href="css/flickity.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<meta name="title" content="GxdAim - Graphic Designer" />
+		<meta
+			name="description"
+			content="Hi, I’m GxdAim
+I am 14 years old graphic designer from germany.
+I have 2 year of designing experience.
+I am specialized in Logo and Social Media Design.
+If you are interested to buy designs contact me below.
+"
+		/>
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://gxdaim.tk/" />
+		<meta property="og:title" content="GxdAim - Graphic Designer" />
+		<meta
+			property="og:description"
+			content="Hi, I’m GxdAim
+I am 14 years old graphic designer from germany.
+I have 2 year of designing experience.
+I am specialized in Logo and Social Media Design.
+If you are interested to buy designs contact me below.
+"
+		/>
+		<meta property="og:image" content="https://gxdaim.tk/img/header/gxdaim.png" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://gxdaim.tk/" />
+		<meta property="twitter:title" content="GxdAim - Graphic Designer" />
+		<meta
+			property="twitter:description"
+			content="Hi, I’m GxdAim
+I am 14 years old graphic designer from germany.
+I have 2 year of designing experience.
+I am specialized in Logo and Social Media Design.
+If you are interested to buy designs contact me below.
+"
+		/>
+		<meta property="twitter:image" content="https://gxdaim.tk/img/header/gxdaim.png" />
+	</head>
+	<body>
+		<div class="mobilewarning">
+			<img src="img/GxdAim - elipse-blau.png" width="100%" alt="" />
+			<p>
+				Your phone is not compatible with this website. Please use your PC.
+			</p>
+			<div></div>
+		</div>
+		<button class="otherhide" onclick="sidebarToggle(this)" id="sidebarToggle">
+			<svg
+				aria-hidden="true"
+				focusable="false"
+				data-prefix="fas"
+				data-icon="bars"
+				class="is-animated svg-inline--fa fa-bars fa-w-14"
+				role="img"
+				xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 448 512"
+			>
+				<path
+					fill="currentColor"
+					d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+				></path>
+			</svg>
+		</button>
+		<div class="pageCounter otherhide">
+			<div id="progressText">
+				<span><span class="page d-inline">01</span><span>/</span><span class="of">04</span></span>
+			</div>
+			<div class="progress">
+				<div class="progress-value"></div>
+			</div>
+		</div>
+		<div class="page otherhide">
+			<aside class="sidebar" id="sidebar">
+				<a to="landing" onclick="clickLink(this)">
+					<img class="top" src="img/GxdAim - elipse.png" />
+				</a>
+				<ul id="sidebarMenu">
+					<li>
+						<a to="landing" onclick="clickLink(this)">
+							About Me
+						</a>
+					</li>
+					<li>
+						<a to="portfolio" onclick="clickLink(this)">
+							Portfolio
+						</a>
+					</li>
+					<li>
+						<a to="prices" onclick="clickLink(this)">
+							Prices
+						</a>
+					</li>
+					<li>
+						<a to="contact" onclick="clickLink(this)">
+							Contact
+						</a>
+					</li>
+				</ul>
+				<div class="socialList">
+					<ul>
+						<li class="social first">
+							<a href="https://twitter.com/GxdAimGFX" target="_BLANK">
+								<img src="img/twitter-white.png" />
+							</a>
+						</li>
+						<li class="social">
+							<a href="https://discord.gg/84ZZcnN" target="_BLANK">
+								<img src="img/discord-white.png" />
+							</a>
+						</li>
+						<li class="social">
+							<a href="https://www.behance.net/gxdaim" target="_BLANK">
+								<img src="img/behance-white.png" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+
+			<div class="backdrop" onclick="hide(this)"></div>
+
+			<div id="content">
+				<section class="section container-fluid first" id="landing">
+					<div class="is-animated row testText">
+						<div class="is-animated col-xl-6 col-12 text">
+							<h1 class="is-animated headline">Hi, I’m <span class="is-animated name">GxdAim</span></h1>
+							<div class="is-animated description">
+								<div>
+									I am a 14 years old graphic designer from germany.
+									<br />
+									I have 2 year of designing experience.
+									<br />
+									I am specialized in Logo and Social Media Design.
+									<br />
+									If you are interested to buy designs contact me below.
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="is-animated mid row">
+						<div class="is-animated buttons col-xl-6 col-12">
+							<button class="is-animated work" to="portfolio" onclick="clickLink(this)">my work</button>
+							<button class="is-animated contact" to="contact" onclick="clickLink(this)">contact</button>
+						</div>
+						<div class="is-animated carousel col-xl-5 col-12">
+							<div class="is-animated carousel-cell">
+								<img data-flickity-lazyload="img/header/gxdaim.png" />
+							</div>
+							<div class="is-animated carousel-cell">
+								<img data-flickity-lazyload="img/header/avesta.png" />
+							</div>
+							<div class="is-animated carousel-cell">
+								<img data-flickity-lazyload="img/header/citydriver.png" />
+							</div>
+							<div class="is-animated carousel-cell">
+								<img data-flickity-lazyload="img/header/nyze.png" />
+							</div>
+							<div class="is-animated carousel-cell">
+								<img data-flickity-lazyload="img/header/saquara.png" />
+							</div>
+							<div class="is-animated carousel-cell">
+								<img data-flickity-lazyload="img/header/soclly.png" />
+							</div>
+							<div class="is-animated carousel-cell">
+								<img data-flickity-lazyload="img/header/tamino.png" />
+							</div>
+							<div class="is-animated carousel-cell">
+								<img data-flickity-lazyload="img/header/vapor.png" />
+							</div>
+						</div>
+					</div>
+					<div class="is-animated footer row mt-5">
+						<div class="is-animated copyright col">
+							<script>
+								document.write("©" + new Date().getFullYear());
+							</script>
+							GxdAim
+						</div>
+						<div class="is-animated scrollIndicator col">
+							<a to="portfolio" onclick="clickLink(this)">
+								<img src="img/Scroll Down Arrow.png" />
+							</a>
+						</div>
+						<div class="is-animated col"></div>
+					</div>
+				</section>
+				<section class="section container-fluid second" id="portfolio">
+					<div class="is-animated row">
+						<div class="is-animated col-xl-6 col-12 text">
+							<h1 class="is-animated headline">Portfolio</h1>
+						</div>
+					</div>
+					<div class="is-animated row">
+						<div class="is-animated popups">
+							<div type="social" class="is-animated myCard">
+								<img src="img/Social Media.png" />
+								<div id="socialMediaWork" class="modal-container">
+									<div class="modal-background">
+										<div class="myModal">
+											<div class="images">
+												<img src="img/header/gxdaim.png" />
+												<img src="img/header/avesta.png" />
+												<img src="img/header/citydriver.png" />
+												<img src="img/header/divine.png" />
+												<img src="img/header/nyze.png" />
+												<img src="img/header/saquara.png" />
+												<img src="img/header/soclly.png" />
+												<img src="img/header/tamino.png" />
+												<img src="img/header/vapor.png" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div type="logo" class="is-animated myCard">
+								<img src="img/Logofolio.png" />
+								<div id="logoWork" class="modal-container">
+									<div class="modal-background">
+										<div class="myModal">
+											<div class="images">
+												<img src="img/logo/D.png" />
+												<img src="img/logo/E.png" />
+												<img src="img/logo/L.png" />
+												<img src="img/logo/J.png" />
+												<img src="img/logo/V.png" />
+												<img src="img/logo/B.png" />
+												<img src="img/logo/Venic.png" />
+												<img src="img/logo/ERP.png" />
+												<img src="img/logo/VRT.png" />
+												<img src="img/logo/WN.png" />
+												<img src="img/logo/EPA.png" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div type="jersey" class="is-animated myCard">
+								<img src="img/Jersey Design.png" />
+								<div id="jerseyWork" class="modal-container">
+									<div class="modal-background">
+										<div class="myModal">
+											<div class="images">
+												<img src="img/jersey/T20 Website.png" />
+												<img src="img/jersey/Synpatic.png" />
+												<div class="space"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="is-animated centerGetstarted">
+							<button class="is-animated getstarted" to="contact" onclick="clickLink(this)">
+								Get started
+							</button>
+						</div>
+					</div>
+				</section>
+				<section class="section container-fluid third" id="prices">
+					<div class="is-animated row">
+						<div class="is-animated col-xl-6 col-12 text">
+							<h1 class="is-animated headline">Prices</h1>
+						</div>
+					</div>
+					<div class="is-animated row products">
+						<div class="is-animated col-6 firstCol">
+							<ul class="is-animated list">
+								<li><span class="is-animated blue">20€</span> - Header</li>
+								<li><span class="is-animated blue">20€</span> - Logo</li>
+								<li><span class="is-animated blue">15€</span> - Facecam</li>
+								<li><span class="is-animated blue">10€</span> - Panels</li>
+								<li><span class="is-animated blue">40€</span> - Jersey Design</li>
+								<li class="is-animated contact">
+									<span class="is-animated blue">
+										<a to="contact" onclick="clickLink(this)">
+											Contact me
+										</a>
+									</span>
+									for other work
+								</li>
+							</ul>
+							<button class="is-animated contact desktop" to="contact" onclick="clickLink(this)">
+								Get started
+							</button>
+						</div>
+						<div class="is-animated col-6">
+							<ul class="is-animated list">
+								<li>
+									<span class="is-animated blue">40€</span> - Twitch package
+									<ul class="is-animated sublist dashed">
+										<li>Facecam</li>
+										<li>Panels</li>
+										<li>Overlay</li>
+										<li>3 Scenes</li>
+									</ul>
+								</li>
+								<li>
+									<span class="is-animated blue">40€</span> - Full Revamp
+									<ul class="is-animated sublist dashed">
+										<li>Logo</li>
+										<li>Profile Picture</li>
+										<li>Youtube Banner</li>
+										<li>Twitter Header</li>
+										<li>Twitch Header</li>
+									</ul>
+								</li>
+								<li>
+									<span class="is-animated blue">150€</span> - Webdesign
+									<ul class="is-animated sublist dashed">
+										<li>
+											3 Pages e.g.
+											<ul class="is-animated examples dashed">
+												<li>Landing page</li>
+												<li>Contact page</li>
+												<li>Team page</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="is-animated contactMobileDiv">
+						<button class="is-animated contact mobile" to="contact" onclick="clickLink(this)">
+							Get started
+						</button>
+					</div>
+				</section>
+				<section class="section container-fluid fourth" id="contact">
+					<div class="is-animated row">
+						<div class="is-animated col-xl-6 col-12">
+							<h1 class="is-animated headline">Contact</h1>
+						</div>
+					</div>
+					<form onsubmit="return send()">
+						<div class="is-animated row userDetail">
+							<div class="is-animated col-xl-6 col-12 name">
+								<fieldset class="is-animated material">
+									<input id="name" type="text" autocomplete="name" required />
+									<hr />
+									<label>Name</label>
+								</fieldset>
+							</div>
+							<div class="is-animated col-xl-6 col-12 email">
+								<fieldset class="is-animated material">
+									<input id="email" type="email" autocomplete="email" required />
+									<hr />
+									<label>E-Mail</label>
+								</fieldset>
+							</div>
+						</div>
+						<div class="is-animated row message">
+							<div class="is-animated col-xl-6 col-12">
+								<label class="is-animated pure-material-textfield-outlined">
+									<textarea id="text" placeholder=" " required></textarea>
+									<span>Message</span>
+								</label>
+							</div>
+						</div>
+						<div class="is-animated row submit">
+							<div class="is-animated col-xl-6 col-12">
+								<button type="submit" class="is-animated">Submit</button>
+							</div>
+						</div>
+						<div class="is-animated row result">
+							<div class="is-animated col-xl-6 col-12" id="contactResult"></div>
+						</div>
+						<div class="is-animated row footer">
+							<ul>
+								<li class="is-animated social first">
+									<a href="https://twitter.com/GxdAimGFX" target="_BLANK">
+										<img src="img/twitter-blue.png" /> <span>GxdAimGFX</span>
+									</a>
+								</li>
+								<li class="is-animated social">
+									<a href="https://discord.gg/84ZZcnN" target="_BLANK">
+										<img src="img/discord-blue.png" />
+										<span>
+											GxdAimGFX#5030
+										</span>
+									</a>
+								</li>
+								<li class="is-animated social">
+									<a href="https://www.behance.net/gxdaim" target="_BLANK">
+										<img src="img/behance-blue.png" />
+										<span>
+											GxdAim
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</form>
+				</section>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script src="js/flickity.pkgd.min.js"></script>
+		<script src="js/fullpage.min.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
